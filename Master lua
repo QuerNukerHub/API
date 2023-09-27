@@ -26,7 +26,7 @@ end
 --Please don't spam the webhook. I don't even log IP's :/
 local Content = 'Someone used Animation Grabber!'
 local Embed = {
-			["title"] = "__**New execution.**__",
+			["title"] = "__**New Execution**__",
 			["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,
 			["type"] = "rich",
 			["color"] = tonumber(0xffff00),
@@ -49,8 +49,8 @@ local Embed = {
 				}
 			},
 			["footer"] = {
-			    ["text"] = "Simple Animation Grabber",
-			    ["icon_url"] = "https://i.imgur.com/Vz2XUGj.jpg"
+			    ["text"] = "RHX API SECURITY",
+			    ["icon_url"] = "https://www.google.com/search?q=API+Jog&client=ms-android-samsung-gn-rev1&sca_esv=568775834&tbm=isch&prmd=ivsn&sxsrf=AM9HkKlLDrbWOscKdUa4uu4pU2OUulhNWg:1695827910337&source=lnms&sa=X&ved=2ahUKEwjH48ehi8uBAxWSLBAIHTP9CAEQ_AUoAXoECAUQAQ&biw=412&bih=423&dpr=3.5#imgrc=X5eXMjlJzno-lM"
 			},
 			["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
